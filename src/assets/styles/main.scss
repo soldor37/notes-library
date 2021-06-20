@@ -1,0 +1,49 @@
+
+.v-application .title {
+    font-family: $subtitle-font-family !important;
+}
+.v-btn__content {
+    font-family: $subtitle-font-family;
+}
+
+// название селектов
+.select__title {
+    font-family: $subtitle-font-family;
+    font-weight: 600;
+    font-size: 14px !important;
+    line-height: 22px;
+    text-indent: 18px;
+    letter-spacing: 0.0071em !important;
+}
+// select selections autocomplete
+.overflow-chips {
+    .v-select__selections {
+        min-height: 28px !important;
+        max-height: 28px !important;
+        overflow: hidden !important;
+        overflow-y: auto !important;
+    }
+}
+/* 
+ ---------------- SCROLL BAR
+*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #EAF3FF;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #B8D7FF;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #73FFDC;
+}
